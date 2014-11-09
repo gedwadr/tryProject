@@ -1,0 +1,5 @@
+c:\users\firman\documents\visual studio 2010\Projects\simpleArithmatic\simpleArithmatic\bin\simpleArithmatic.dll
+c:\users\firman\documents\visual studio 2010\Projects\simpleArithmatic\simpleArithmatic\bin\simpleArithmatic.pdb
+c:\users\firman\documents\visual studio 2010\Projects\simpleArithmatic\simpleArithmatic\obj\Debug\simpleArithmatic.dll
+c:\users\firman\documents\visual studio 2010\Projects\simpleArithmatic\simpleArithmatic\obj\Debug\simpleArithmatic.pdb
+C:\Users\Firman\Documents\Visual Studio 2010\Projects\simpleArithmatic\simpleArithmatic\obj\Debug\simpleArithmatic.csprojResolveAssemblyReference.cache

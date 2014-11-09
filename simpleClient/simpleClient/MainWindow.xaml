@@ -1,0 +1,12 @@
+﻿<Window x:Class="simpleClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="338" Width="292">
+    <Grid>
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="97,74,0,0" Name="usernameBox" VerticalAlignment="Top" Width="120" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="97,119,0,0" Name="passwordBox" VerticalAlignment="Top" Width="120" />
+        <Label Content="Username :" Height="28" HorizontalAlignment="Left" Margin="20,70,0,0" Name="label1" VerticalAlignment="Top" />
+        <Label Content="Password :" Height="28" HorizontalAlignment="Left" Margin="20,115,0,0" Name="label2" VerticalAlignment="Top" />
+        <Button Content="Submit" Height="23" HorizontalAlignment="Left" Margin="97,156,0,0" Name="button1" VerticalAlignment="Top" Width="120" Click="button1_Click" />
+    </Grid>
+</Window>
