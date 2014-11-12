@@ -1,0 +1,4 @@
+C:\Users\Firman\Documents\Visual Studio 2010\Projects\simpleArithmatic\tryProject\serviceWorkflow\bin\serviceWorkflow.dll
+C:\Users\Firman\Documents\Visual Studio 2010\Projects\simpleArithmatic\tryProject\serviceWorkflow\bin\serviceWorkflow.pdb
+C:\Users\Firman\Documents\Visual Studio 2010\Projects\simpleArithmatic\tryProject\serviceWorkflow\obj\Debug\serviceWorkflow.dll
+C:\Users\Firman\Documents\Visual Studio 2010\Projects\simpleArithmatic\tryProject\serviceWorkflow\obj\Debug\serviceWorkflow.pdb

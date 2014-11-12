@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="simpleWorkflow.exe" version="1.0.0.0" publicKeyToken="048b15ebabcf0379" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="simpleWorkflow" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="simpleWorkflow.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="simpleWorkflow.exe" size="17920">
+      <assemblyIdentity name="simpleWorkflow" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>61gQI4dCx+2IL0l0SRrooOQ+LnA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="simpleWFService.xamlx" size="3637">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Unb3Qx7BWr57zTAwxU3Xops1lE8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="simpleWorkflow.exe.config" size="230">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Jwd5VIbTG/BTzahTklxITZ1ajF4=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=FIRMAN\Firman" issuerKeyHash="9dba19d8a0c17fb3746414e208587619c94cd8f6" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Kit4myzrgV0B9isIkf9NWgOuZyo=</DigestValue></Reference></SignedInfo><SignatureValue>oyMG4v020xP4nU7j+Bf445vJSKtmSPhrer/EtdXS6HOGwEzj5XUPjHXC4nu9xh0g7RpnNgN7lZpFOQm4IDM3MGfLqjS+b3h5kFft56piu4FnAM2F4Q9w9sPglfogT+wTSIy4IyRdQk79XXUB2eXUcVUtdI7oPFDlC/sxoAjmxfA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xuO8cy8CL1AqzMfszHEDeQR3gGTFWI8xdkWvIKItYsW8Zb3uRVDUeyYND3HaGf9wDnNXNxN03xqW2kk3n89/SzYtkhTDiO6eooJ5bUn4Bw5UVyFQTJlRu4QKVr6WWb1s3oSZDHzefvqZK0fmQCGBprVST//iZSMpYVeeqFCkrd8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="2a67ae035a4dff91082bf6015d81eb2c9b782b2a" Description="" Url=""><as:assemblyIdentity name="simpleWorkflow.exe" version="1.0.0.0" publicKeyToken="048b15ebabcf0379" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=FIRMAN\Firman</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>2xsA+X/9HDjvBivY6tSRjjvGogc=</DigestValue></Reference></SignedInfo><SignatureValue>IVEvs8TjirMGJ/q62zdeS0cdAT74dLqDF3sjPSOeCr97EmVJXUCZtEfla6EKWZ/Du97QFXSeJVA85LlMavOj6wm7/yeaPgU85F5FTmsfOE0H5k6gLtnUqmqZhME2MwqAETQByEfX1FAVEMR0LzNJvTmUwq6Z36atU/Mabz45LT4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xuO8cy8CL1AqzMfszHEDeQR3gGTFWI8xdkWvIKItYsW8Zb3uRVDUeyYND3HaGf9wDnNXNxN03xqW2kk3n89/SzYtkhTDiO6eooJ5bUn4Bw5UVyFQTJlRu4QKVr6WWb1s3oSZDHzefvqZK0fmQCGBprVST//iZSMpYVeeqFCkrd8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQWp6SWECB0LNIrQ8np1QldDANBgkqhkiG9w0BAQUFADAlMSMwIQYDVQQDHhoARgBJAFIATQBBAE4AXABGAGkAcgBtAGEAbjAeFw0xNDExMTExOTI1NTZaFw0xNTExMTIwMTI1NTZaMCUxIzAhBgNVBAMeGgBGAEkAUgBNAEEATgBcAEYAaQByAG0AYQBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDG47xzLwIvUCrMx+zMcQN5BHeAZMVYjzF2Ra8goi1ixbxlve5FUNR7Jg0PcdoZ/3AOc1c3E3TfGpbaSTefz39LNi2SFMOI7p6ignltSfgHDlRXIVBMmVG7hApWvpZZvWzehJkMfN5++pkrR+ZAIYGmtVJP/+JlIylhV56oUKSt3wIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAByqBXEzGXzzOVTiKTqemirWKEqWdfikSHQaSDq37S0q1CFkwxX1N2n5j7n5zNsBJHD9PGtWEsVY3ywul97MT471PoIkv5paz8m5lrQltq56TzN0YpNTsYRr7uaUQ4RPiInZgTEpcuzyOu8/w9riPwui2bXuEkvNN7ExTg3Ol9of</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

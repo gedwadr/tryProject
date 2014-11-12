@@ -1,0 +1,3 @@
+obj\x86\Debug\_simpleWorkflow.g.cs
+obj\x86\Debug\Workflow1.g.cs
+obj\x86\Debug\SimpleFlowChart.g.cs
